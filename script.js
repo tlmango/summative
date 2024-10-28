@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
   collapsible.addEventListener("click", () => { 
     content.style.display = content.style.display === "block" ? "none" : "block"; 
-    sidebar.classList.toggle("collapsed");   
   }); 
 });
 
