@@ -14,19 +14,7 @@
   padding-top: 20px; 
 } 
 
-.collapsible { 
-  background-color: #333; 
-  color: #ffffff; 
-  cursor: pointer; 
-  padding: 15px; 
-  width: 100%; 
-  border: none; 
-  text-align: left; 
-  outline: none; 
-  font-size: 18px; 
-}
-
-body { 
+. body { 
   font-family: 
     Arial, sans-serif; 
   display: flex; 
