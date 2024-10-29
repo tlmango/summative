@@ -68,8 +68,13 @@
   text-decoration: none; 
   color: #333; 
   font-weight: bold; 
-} 
+  display: block;
+  padding: 10px 15px; 
+  transition: background-color 0.3s, color 0.3s;
+}
 
-.content li a:hover {
-  color: #007bff; 
+.content li a:hover { 
+  background-color: #007bff; 
+  color: #fff; 
+  border-radius: 4px; 
 }
