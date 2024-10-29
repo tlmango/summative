@@ -54,8 +54,8 @@ body {
 .center {
   margin-left: 200px; 
   width: calc(100vw - 200px); 
-  height: 50vh; 
-  object-fit: cover; 
+  height: 100vh; 
+  object-fit: banner; 
 }
 
 .content ul { 
