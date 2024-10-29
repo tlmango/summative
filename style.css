@@ -40,11 +40,10 @@
 } 
 
 .center {
-  display: block;
-  margin-left: 50px;
-  margin-right: auto;
-  width: 50%;
-}
+  margin-left: 200px; 
+  width: calc(100vw - 200px); 
+  height: 100vh; 
+  object-fit: cover; 
 
 .content { 
   display: none; 
