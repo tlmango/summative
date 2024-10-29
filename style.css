@@ -55,7 +55,6 @@ body {
   margin-left: 200px; 
   width: calc(100vw - 200px); 
   height: 50vh; 
-  overflow: hidden;
   object-fit: cover; 
 }
 
