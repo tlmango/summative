@@ -29,10 +29,6 @@
   width: 200px; 
 } 
 
-.collapsible:hover { 
-  background-color: #444; 
-  color: #f4f4f4; 
-}
 .collapsible { 
   background-color: #333; 
   color: white; 
@@ -43,6 +39,11 @@
   text-align: left; 
   outline: none; font-size: 18px; 
 } 
+
+.collapsible:hover { 
+  background-color: #444; 
+  color: #f4f4f4; 
+}
 
 .center {
   margin-left: 200px; 
