@@ -87,3 +87,12 @@ ul li:hover {
   background-color: #007bff; 
   color: #fff; 
 }
+
+
+.main-content {
+  margin-left: 200px;
+  padding: 20px;
+  width: calc(100vw - 200px); 
+  background-color: #f4f4f4;
+}
+
