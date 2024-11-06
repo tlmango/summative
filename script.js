@@ -1,8 +1,15 @@
 
-$(window).on('load',function(){
-  setTimeout(function(){
-  $('.page-loader').fadeOut('slow');
-  },3500);
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    var loader = document.querySelector('.page-loader');
+    if (loader) {
+      loader.style.transition = 'opacity 0.5s ease'; 
+      loader.style.opacity = 0;
+      setTimeout(function() {
+        loader.style.display = 'none';
+      }, 500); 
+    }
+  }, 3500);
 });
 
 document.addEventListener("DOMContentLoaded", () => { 
