@@ -9,7 +9,7 @@
   top: 0; 
   width: 200px; 
   height: 100vh; 
-  background-color: #8d99ae; 
+  background-color: #333; 
   overflow-x: hidden; 
   transition: width 0.3s; 
   padding-top: 20px; 
