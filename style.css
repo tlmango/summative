@@ -157,13 +157,15 @@ strong {
     color: #ef233c;
 }
 
-.page-loader{
+.page-loader {
   width: 100%;
   height: 100vh;
   position: absolute;
   background: #272727;
   z-index: 1000;
-  .txt{
+}
+
+  .txt {
     color: #666;
     text-align: center;
     top: 40%;
