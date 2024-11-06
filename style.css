@@ -9,10 +9,11 @@
   top: 0; 
   width: 200px; 
   height: 100vh; 
-  background-color: #333; 
+  background-color: #8d99ae; 
   overflow-x: hidden; 
   transition: width 0.3s; 
   padding-top: 20px; 
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
 } 
 
 body { 
@@ -59,8 +60,8 @@ body {
 }
 
 .collapsible {
-  background-color: #333;
-  color: white;
+  background-color: #2b2d42;
+  color: edf2f4;
   cursor: pointer;
   padding: 15px;
   width: 100%;
@@ -71,7 +72,7 @@ body {
 }
 
 .collapsible:hover {
-  background-color: #444;
+  background-color: #444b5a;
   color: #f4f4f4;
 }
 
@@ -90,14 +91,14 @@ body {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
-  color: #333;
+  color: #2b2d42;
   font-weight: bold;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .content li a:hover {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #ef233c;
+  color: #edf2f4;
 }
 
 ul li:hover {
@@ -106,32 +107,35 @@ ul li:hover {
 }
 
 .main-content h1 {
-    color: #333;
+    color: #ef233c;
     font-size: 48px;
     margin-bottom: 10px;
 }
 
 .main-content h2 {
-    color: #555;
+    color: #333;
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-bottom: 2px solid #ef233c;
 }
 
 .main-content h4 {
-    color: #777;
+    color: #8d99ae;
     font-size: 16px;
     margin-bottom: 20px;
 }
 
 p {
     margin-bottom: 15px;
-    color: #333;
+    color: #2b2d42;
+    line-height: 1.6;
 }
 
 ul {
     margin-bottom: 20px;
     padding-left: 20px;
+    color: #2b2d42;
 }
 
 ul li {
@@ -140,5 +144,6 @@ ul li {
 
 strong {
     font-weight: bold;
+    color: #ef233c;
 }
 
