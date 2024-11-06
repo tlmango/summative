@@ -115,6 +115,7 @@ ul li:hover {
     color: #555;
     font-size: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .main-content h4 {
@@ -125,7 +126,6 @@ ul li:hover {
 
 p {
     margin-bottom: 15px;
-  margin-bottom: 20px;
     color: #333;
 }
 
