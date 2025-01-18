@@ -245,3 +245,28 @@ strong {
 }
 /* carasel attempt*/
 
+.button-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.project-button {
+    display: inline-block;
+    padding: 12px 30px; 
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #4CAF50; 
+    color: white; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px; 
+}
+
+.project-button:hover {
+    background-color: #45a049;
+}
+
+.project-button:active {
+    background-color: #397b35; 
+}
