@@ -21,9 +21,3 @@ document.addEventListener("DOMContentLoaded", () => {
   }); 
 });
 
-// TEST for CARSEL
-    window.onload = function() {
-        var video = document.querySelector('video');
-        var carousel = document.querySelector('.carousel');
-        carousel.style.height = video.offsetHeight + 'px';
-    };
