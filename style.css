@@ -208,3 +208,40 @@ strong {
     opacity: 0;
   }
 }
+
+/* carasel attempt*/
+.carousel {
+  position: relative;
+  width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: calc(600px * 3); /* Adjust width based on the number of images */
+}
+
+.slides img {
+  width: 600px;
+  height: auto;
+}
+
+.carousel:hover .slides {
+  animation: slide 6s infinite;
+}
+
+@keyframes slide {
+  0%, 33% {
+    transform: translateX(0);
+  }
+  34%, 66% {
+    transform: translateX(-600px);
+  }
+  67%, 100% {
+    transform: translateX(-1200px);
+  }
+}
+/* carasel attempt*/
+
