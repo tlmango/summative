@@ -20,3 +20,10 @@ document.addEventListener("DOMContentLoaded", () => {
     content.style.display = content.style.display === "block" ? "none" : "block"; 
   }); 
 });
+
+// TEST for CARSEL
+    window.onload = function() {
+        var video = document.querySelector('video');
+        var carousel = document.querySelector('.carousel');
+        carousel.style.height = video.offsetHeight + 'px';
+    };
