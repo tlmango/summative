@@ -256,3 +256,8 @@ strong {
 .project-button:active {
     background-color: #397b35; 
 }
+
+
+img:hover {
+  -webkit-transform: scale(2,2);
+}
